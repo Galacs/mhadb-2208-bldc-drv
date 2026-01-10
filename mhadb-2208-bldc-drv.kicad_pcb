@@ -6153,7 +6153,7 @@
 		(path "/277a0d42-5f60-4d02-ad88-0727dea468bb")
 		(sheetname "/")
 		(sheetfile "mhadb-2208-bldc-drv.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center -1.06 0)
 			(end -1.01 0)
