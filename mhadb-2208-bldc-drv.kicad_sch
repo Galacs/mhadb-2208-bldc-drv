@@ -5573,12 +5573,6 @@
 		(uuid "b8742feb-95c3-455a-ba0d-a54da39cc372")
 	)
 	(junction
-		(at 254 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b965c7d8-6b40-4a0a-a4a6-daac33ed182e")
-	)
-	(junction
 		(at 91.44 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5675,12 +5669,6 @@
 		(uuid "f987406d-544d-422f-b0ad-f51c1e572522")
 	)
 	(junction
-		(at 152.4 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fda99443-5bad-4ea5-8bdd-addeb6d6c055")
-	)
-	(junction
 		(at 123.19 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5766,7 +5754,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 57.15) (xy 152.4 60.96)
+			(xy 152.4 57.15) (xy 152.4 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7766,16 +7754,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 60.96) (xy 152.4 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa88890e-d1f6-45b4-bd18-2796a5b304e2")
-	)
-	(wire
-		(pts
 			(xy 81.28 181.61) (xy 81.28 182.88)
 		)
 		(stroke
@@ -8223,16 +8201,6 @@
 			(type default)
 		)
 		(uuid "da09f7e0-fcee-4d9d-bbf8-d3d4125fe4e6")
-	)
-	(wire
-		(pts
-			(xy 255.27 74.93) (xy 254 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbfc92d5-fdbe-4727-a886-8f8636b7e965")
 	)
 	(wire
 		(pts
@@ -16157,35 +16125,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 152.4 60.96 90)
+		(lib_id "Device:C")
+		(at 102.87 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91ddf325-33b1-486c-8738-35dd767d2301")
-		(property "Reference" "TP6"
-			(at 149.098 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 150.3679 58.42 0)
+		(uuid "909a88dc-ab00-4a9a-8a8e-61737cd15abe")
+		(property "Reference" "C19"
+			(at 105.664 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 152.4 55.88 0)
+		(property "Value" "0u1"
+			(at 105.664 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 103.8352 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16194,7 +16161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 55.88 0)
+			(at 102.87 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16202,22 +16169,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 152.4 60.96 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Basic" "Y"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee1fab2a-2f7f-488b-8f5d-af315dde4c6a")
 		)
 		(pin "1"
-			(uuid "44cbbcda-419a-4442-8e66-45097e80e3bc")
+			(uuid "9d38b07a-2dab-444d-ab3d-57e3724b5819")
 		)
 		(instances
 			(project "mhadb-2208-bldc-drv"
 				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
-					(reference "TP6")
+					(reference "C19")
 					(unit 1)
 				)
 			)
