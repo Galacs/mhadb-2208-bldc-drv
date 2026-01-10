@@ -5145,6 +5145,18 @@
 		)
 		(uuid ab8ade79-844a-46fb-a682-76ba7d14531a)
 	)
+	(rectangle
+		(start 15.24 63.5)
+		(end 36.83 100.33)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ed852e96-d67d-4263-bc50-9cb509109e01)
+	)
 	(text "Motor mounting"
 		(exclude_from_sim no)
 		(at 27.94 115.824 0)
@@ -5156,6 +5168,18 @@
 			)
 		)
 		(uuid "24a53fd7-8761-4166-82b1-97f3900d4926")
+	)
+	(text "PWR\nIndicators"
+		(exclude_from_sim no)
+		(at 26.162 68.072 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "4c040330-52ee-4fcf-94b7-a112a8310273")
 	)
 	(text "Debug port"
 		(exclude_from_sim no)
@@ -5894,6 +5918,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 77.47) (xy 20.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa6a086-94d1-448c-ba56-8a00af178162")
+	)
+	(wire
+		(pts
 			(xy 35.56 144.78) (xy 35.56 143.51)
 		)
 		(stroke
@@ -6041,6 +6075,16 @@
 			(type default)
 		)
 		(uuid "17a2db2e-a299-4d02-ab74-5b8d1a532e18")
+	)
+	(wire
+		(pts
+			(xy 29.21 77.47) (xy 29.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187d20e7-5836-4328-bdf2-9b215ef00ed1")
 	)
 	(wire
 		(pts
@@ -6661,6 +6705,16 @@
 			(type default)
 		)
 		(uuid "4d9a3ed8-1d9b-4864-b251-a6ecaa1e913e")
+	)
+	(wire
+		(pts
+			(xy 20.32 96.52) (xy 20.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6955dc-5baf-41ff-b7a1-f2615df0474f")
 	)
 	(wire
 		(pts
@@ -7391,6 +7445,16 @@
 			(type default)
 		)
 		(uuid "85db929b-d7b6-4dbd-8266-ed775f6ecef3")
+	)
+	(wire
+		(pts
+			(xy 20.32 87.63) (xy 20.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863651fe-0441-4fce-a791-327713784a3f")
 	)
 	(wire
 		(pts
@@ -8184,6 +8248,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 87.63) (xy 29.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88f0692-a1d0-4b32-a634-cf27243482c7")
+	)
+	(wire
+		(pts
 			(xy 91.44 62.23) (xy 102.87 62.23)
 		)
 		(stroke
@@ -8601,6 +8675,16 @@
 			(type default)
 		)
 		(uuid "fcc62232-3540-45c4-b570-a1140836c746")
+	)
+	(wire
+		(pts
+			(xy 29.21 96.52) (xy 29.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe540553-d1d7-44db-a122-aae83ab5088f")
 	)
 	(wire
 		(pts
@@ -9309,6 +9393,240 @@
 			(project "mhadb-2208-bldc-drv"
 				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 29.21 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03a1cb2c-44b9-49b8-ac9f-346925ee740f")
+		(property "Reference" "#PWR033"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 29.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 29.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07b477ac-f31d-4de2-97c6-c891c534a5e8")
+		)
+		(instances
+			(project "mhadb-2208-bldc-drv"
+				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 20.32 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03ea05eb-3471-43f7-abc0-5e8c2b292529")
+		(property "Reference" "#PWR022"
+			(at 20.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 20.32 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45bb0c22-0cfb-4412-8277-abef9823cf3d")
+		)
+		(instances
+			(project "mhadb-2208-bldc-drv"
+				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 20.32 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06d01598-f314-470f-a349-f04e95565fca")
+		(property "Reference" "R9"
+			(at 23.876 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 23.876 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 22.098 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 20.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 20.32 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 20.32 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 20.32 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25905"
+			(at 20.32 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b777789b-c06b-40b2-8a10-d07f3631d90f")
+		)
+		(pin "2"
+			(uuid "8e71b1f6-527e-4684-a561-944f140fbf5c")
+		)
+		(instances
+			(project "mhadb-2208-bldc-drv"
+				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12013,6 +12331,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 29.21 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "411fa11e-a005-4716-b5b6-1cb1aba05a7f")
+		(property "Reference" "R10"
+			(at 32.766 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 32.766 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.988 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 29.21 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 29.21 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 29.21 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25905"
+			(at 29.21 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61559b73-2880-4803-b932-43ed3d5968fa")
+		)
+		(pin "2"
+			(uuid "43a9a351-7517-4838-bc3a-acc52cb9dfae")
+		)
+		(instances
+			(project "mhadb-2208-bldc-drv"
+				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_CAN_LIN:SN65HVD230")
 		(at 39.37 177.8 0)
 		(unit 1)
@@ -12195,6 +12617,119 @@
 			(project "mhadb-2208-bldc-drv"
 				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4386324a-bdee-4dcd-b638-7c4f701cfb18")
+		(property "Reference" "D2"
+			(at 32.258 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WHITE"
+			(at 32.258 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec "
+			(at 29.21 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KT-0603W"
+			(at 29.21 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 29.21 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2290"
+			(at 29.21 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27e8273-cd6a-450e-a841-8b42e7c55f44")
+		)
+		(pin "2"
+			(uuid "a385f6af-c681-4524-8141-357c2c8e4312")
+		)
+		(instances
+			(project "mhadb-2208-bldc-drv"
+				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18390,6 +18925,74 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 20.32 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ed33f8-f944-4602-b763-0daedcfd81ab")
+		(property "Reference" "#PWR029"
+			(at 20.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86c24b17-5e29-418c-ba24-19ab6969da65")
+		)
+		(instances
+			(project "mhadb-2208-bldc-drv"
+				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 214.63 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18450,6 +19053,121 @@
 			(project "mhadb-2208-bldc-drv"
 				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 20.32 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f115e5e4-e481-40fd-b47c-990371dcc580")
+		(property "Reference" "D1"
+			(at 25.4 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 26.924 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec "
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KT-0805G"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2297"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3183e8ca-d798-437b-a00f-c08c5318af10")
+		)
+		(pin "2"
+			(uuid "a077e59f-3c55-4fec-a358-40caf843a147")
+		)
+		(instances
+			(project "mhadb-2208-bldc-drv"
+				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -18583,6 +19301,74 @@
 			(project "mhadb-2208-bldc-drv"
 				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f589284c-538c-4d66-8c9f-10604f8d39fc")
+		(property "Reference" "#PWR034"
+			(at 29.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f10d915c-c9b1-4afb-8e03-120ae6f426c2")
+		)
+		(instances
+			(project "mhadb-2208-bldc-drv"
+				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
