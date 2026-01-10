@@ -7456,7 +7456,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 64.77) (xy 273.05 64.77)
+			(xy 279.4 64.77) (xy 273.05 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8046,7 +8046,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 64.77) (xy 280.67 67.31)
+			(xy 279.4 64.77) (xy 279.4 71.12)
 		)
 		(stroke
 			(width 0)
@@ -13394,7 +13394,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 67.31 0)
+		(at 279.4 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13403,7 +13403,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e76fa4f-61aa-4876-b2f4-0faf9bcb8f73")
 		(property "Reference" "#PWR044"
-			(at 280.67 73.66 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 72.39 0)
+			(at 279.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,7 +13421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 67.31 0)
+			(at 279.4 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13430,7 +13430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 67.31 0)
+			(at 279.4 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13439,7 +13439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 67.31 0)
+			(at 279.4 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13603,7 +13603,7 @@
 		(dnp no)
 		(uuid "52b0cc89-663f-4f0c-9d4d-293dcef77397")
 		(property "Reference" "C22"
-			(at 257.556 90.932 0)
+			(at 257.556 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13612,7 +13612,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 257.556 92.71 0)
+			(at 257.556 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14606,7 +14606,7 @@
 		(dnp no)
 		(uuid "639ac892-c4e6-429e-9cee-ddde497f298b")
 		(property "Reference" "C26"
-			(at 267.716 90.932 0)
+			(at 267.716 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14615,7 +14615,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 267.716 92.964 0)
+			(at 267.716 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16254,7 +16254,7 @@
 		(dnp no)
 		(uuid "8256131b-d38e-4063-b5b2-0915e75cefb4")
 		(property "Reference" "C23"
-			(at 262.636 90.932 0)
+			(at 262.636 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16263,7 +16263,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 262.636 92.964 0)
+			(at 262.636 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,7 +18299,7 @@
 		(dnp no)
 		(uuid "d009329f-c3ee-4c2c-8cae-a79999e177ba")
 		(property "Reference" "C21"
-			(at 252.222 90.932 0)
+			(at 252.222 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18308,7 +18308,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 252.222 92.71 0)
+			(at 252.222 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
