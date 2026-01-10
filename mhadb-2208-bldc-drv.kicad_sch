@@ -5447,12 +5447,6 @@
 		(uuid "6a7ffeb9-fe2d-4152-81fe-0107c2ed1076")
 	)
 	(junction
-		(at 227.33 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76368e2c-3c6b-463f-be89-e4f2b4bbb2ed")
-	)
-	(junction
 		(at 214.63 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5661,12 +5655,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3ec71cb-8097-4aad-b21c-e1b3114c0fbd")
-	)
-	(junction
-		(at 233.68 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f61dc081-40b3-4a71-9a94-5fb3484dc170")
 	)
 	(junction
 		(at 217.17 99.06)
@@ -6788,7 +6776,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 116.84) (xy 227.33 116.84)
+			(xy 222.25 116.84) (xy 228.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7178,7 +7166,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 99.06) (xy 233.68 99.06)
+			(xy 229.87 99.06) (xy 237.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7555,16 +7543,6 @@
 			(type default)
 		)
 		(uuid "91a4d53b-3396-466d-98e7-35a57c9f84ac")
-	)
-	(wire
-		(pts
-			(xy 227.33 116.84) (xy 228.6 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "920103a6-2d99-40be-946a-6e6b220e504c")
 	)
 	(wire
 		(pts
@@ -8635,16 +8613,6 @@
 			(type default)
 		)
 		(uuid "fc3bfe67-eb9a-4d1a-9964-d41301102d69")
-	)
-	(wire
-		(pts
-			(xy 233.68 99.06) (xy 237.49 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc80b22e-f9c1-4cf8-9952-25dad87cfafd")
 	)
 	(wire
 		(pts
@@ -13227,74 +13195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 233.68 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "554a6144-5f60-43f3-902c-39b5df722bca")
-		(property "Reference" "TP9"
-			(at 236.22 95.7579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 236.22 97.0279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 238.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 233.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bc973b9-a67b-4611-a34b-5b81c0b7199f")
-		)
-		(instances
-			(project "mhadb-2208-bldc-drv"
-				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 91.44 63.5 0)
 		(unit 1)
@@ -15906,7 +15806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "GLCS:Connector_Pad_1x03"
 			(at 266.7 135.636 0)
 			(effects
 				(font
@@ -16730,73 +16630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9df46dd-4d0e-4de8-90d6-3ac09b373c69")
-		(property "Reference" "TP8"
-			(at 228.854 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 229.87 114.8079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 232.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c7b05cf-2848-4d72-be4a-9773099b8191")
-		)
-		(instances
-			(project "mhadb-2208-bldc-drv"
-				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 151.13 0)
 		(unit 1)
@@ -17444,73 +17277,6 @@
 			(project "mhadb-2208-bldc-drv"
 				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 222.25 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "beac9f5b-8db9-40aa-8245-d2dc8b7c7335")
-		(property "Reference" "TP3"
-			(at 220.472 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 220.2179 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 222.25 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 222.25 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15447397-adf8-49ec-8aeb-884d553559eb")
-		)
-		(instances
-			(project "mhadb-2208-bldc-drv"
-				(path "/68a41d17-d2bf-47b9-9455-3cb873e40984"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
