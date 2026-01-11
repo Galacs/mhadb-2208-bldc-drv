@@ -15097,7 +15097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" "X"
 			(at 152.4 48.26 0)
 			(effects
 				(font
@@ -15106,7 +15106,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1015"
+		(property "JLCPCB Part #" "C81034"
 			(at 152.4 48.26 0)
 			(effects
 				(font
@@ -15115,7 +15115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Sunlord"
+		(property "Manufacturer" "TDK"
 			(at 152.4 48.26 0)
 			(effects
 				(font
@@ -15124,7 +15124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GZ2012D101TF"
+		(property "Manufacturer Part Number" "MPZ2012S601ATD25"
 			(at 152.4 48.26 0)
 			(effects
 				(font
