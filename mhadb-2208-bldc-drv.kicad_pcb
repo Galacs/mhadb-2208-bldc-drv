@@ -9183,6 +9183,7 @@
 		(property "Reference" "SW2"
 			(at 4.04 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "64a6b1cb-d84f-40d9-b754-117d7a9c2c7a")
 			(effects
 				(font
@@ -10354,6 +10355,7 @@
 		(property "Reference" "SW3"
 			(at 3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "83841b8e-d496-436f-b404-064c2977ff8c")
 			(effects
 				(font
@@ -16512,6 +16514,45 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f1288d22-5977-421b-b9d6-689b5e57c12b")
+	)
+	(gr_text "B"
+		(at 115.75 79.25 0)
+		(layer "F.SilkS" knockout)
+		(uuid "a3de6f02-322b-41ae-bfd9-d543dcb7b333")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BTA"
+		(at 98.25 63.75 0)
+		(layer "F.SilkS" knockout)
+		(uuid "b5bbd58c-c697-4d44-a4ad-529fc0b00ddc")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RST"
+		(at 98.25 68.75 0)
+		(layer "F.SilkS" knockout)
+		(uuid "e71f6e6e-409d-4ffd-8bbc-b0504c94a3d0")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "CAN\nstatus"
 		(at 113 64 0)
