@@ -8911,7 +8911,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/galacs/Nextcloud/01. CAD/FOC/2208 gimbal-wheel.step"
+		(model "/home/galacs/Nextcloud/01. CAD/FOC/2208 gimbal-2208.step"
 			(offset
 				(xyz 0 0 -6.6)
 			)
@@ -8919,7 +8919,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 -0 -0)
+				(xyz 180 -0 -0)
+			)
+		)
+		(model "/home/galacs/Nextcloud/01. CAD/FOC/tire tread-CorpsFillet003.step"
+			(offset
+				(xyz 0 0 -6.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -180)
 			)
 		)
 	)
